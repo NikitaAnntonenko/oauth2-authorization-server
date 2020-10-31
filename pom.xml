@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.nikita.antonenko</groupId>
-	<artifactId>oauth2-resource-server</artifactId>
+	<artifactId>oauth2-authorization-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>oauth2-resource-server</name>
+	<name>oauth2-authorization-server</name>
 	<description>Demo project for Spring Boot and oauth2</description>
 
 	<properties>
