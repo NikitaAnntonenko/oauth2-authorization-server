@@ -1,0 +1,23 @@
+server:
+  port: 9090
+  servlet:
+    context-path: /auth
+  error:
+    include-stacktrace: never
+
+auth-server:
+  issuer: http://localhost:${server.port}${server.servlet.context-path}
+  access-token:
+    default-format: jwt
+    lifetime: 10m
+  id-token:
+    lifetime: 5m
+  refresh-token:
+    lifetime: 8h
+    max-lifetime: 8h
+
+logging:
+  level:
+    org:
+      springframework:
+        security: debug
