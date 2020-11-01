@@ -18,6 +18,9 @@ auth-server:
 
 logging:
   level:
+    com:
+      nikita:
+        antonenko: trace
     org:
       springframework:
         security: debug
